@@ -1,5 +1,7 @@
-# Petunjuk Pengerjaan UAS PWD 2021 
-Silahkan baca petunjuk pengerjaan uas dibawah ini:
+link hosting sistem pengajuan skripsi
+https://19020013-sisteminformasi.000webhostapp.com
 
-[petunjuk-pengerjaan-uas-2021.docx](https://github.com/otopet/portofolio-uas/files/6738490/petunjuk-pengerjaan-uas-2021.docx)
 
+              | username   | password
+dosen       : | admin      | admin   
+mahasiswa   : | 190000     | 12345
