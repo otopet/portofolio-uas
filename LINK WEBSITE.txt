@@ -1,0 +1,19 @@
+LINK : sipjusi.herokuapp.com
+
+
+Admin
+-Username : admin
+-Password : admin
+
+Dosen Pembimbing Akademik
+-Username : 11111111
+-Password : 11111111
+
+Dosen Prodi
+-Username : 33333333
+-Password : 33333333
+
+Mahasiswa 
+-Username : 19010004
+-Password : 19010004
+
