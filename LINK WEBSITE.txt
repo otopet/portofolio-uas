@@ -1,6 +1,0 @@
-LINK : sipjusi.herokuapp.com
-
-
-Admin
--Username : admin
--Password : admin
