@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Kepala Asrama</title>
+
+      <style type="text/css">
+        .monaco{
+          font-family: Brush Script MT;
+          font-size: 50px;
+          padding-top: 0px;
+          padding-bottom: 0px;
+          margin-bottom: 0px;
+          margin-top: 0px;
+        }
+        .animate__animated.animate__zoomIn{
+          --animate-duration: 0.5s;
+        }
+        .animate__animated.animate__fadeInLeft{
+          --animate-duration: 0.5s;
+        }
+        .delay1{
+          animation-delay: 0.1s;
+        }
+        .delay2{
+          animation-delay: 0.2s;
+        }
+        .delay3{
+          animation-delay: 0.3s;
+        }
+        .delay4{
+          animation-delay: 0.4s;
+        }
+        .overflow{
+          height: 320px;
+          overflow: scroll;
+        }
+        footer {
+           position:absolute;
+           bottom:0;
+           width:100%;
+           height:60px;   /* tinggi dari footer */
+           background:#6cf;
+        }
+        </style>
+
+  </head>
+  <body>
+  
+
+
+<!-- ===================================================================================================================================== -->
+
+
+
+
+
+  <!-- Awal Navbar -->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-info">
+
+      <span><img class="mx-1 my-1 animate__animated animate__zoomIn" src="img/222.png" height="65"></span>
+      <span class="navbar-brand mx-3 my-1 monaco animate__animated animate__zoomIn">Asrama</span>
+      
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav pb-0 mx-2">
+          <a class="nav-item nav-link text-dark animate__animated animate__fadeInLeft delay1" href="#"><h4>Home</h4></a>
+          <a class="nav-item nav-link text-dark animate__animated animate__fadeInLeft delay2" href="#"><h4>Fitur</h4></a>
+          <a class="nav-item nav-link text-dark animate__animated animate__fadeInLeft delay3" href="#"><h4>Pembayaran</h4></a>
+          <a class="nav-item nav-link text-dark animate__animated animate__fadeInLeft delay4" href="#"><h4>Rekap</h4></a>
+          <a class="nav-item nav-link text-dark animate__animated animate__fadeInLeft delay4" href="#"><h4>Data Penghuni</h4></a>
+        </div>
+      </div>
+  </nav>
+
+  <!-- Akhir Navbar -->
+
+
+
+<!-- ===================================================================================================================================== -->
+
+
+
+<div class="container" >
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <h3 class="font-italic text-white font-weight-bold text-center mt-5 mb-2">Form Input Data Mahasiswa</h3>
+      <form>
+
+        <div class="form-group text-white">
+          <label for="npm">NPM</label>
+          <input type="text" id="npm" class="form-control" >
+        </div>
+
+        <div class="form-group text-white">
+          <label for="nama">Nama</label>
+          <input type="text" id="nama" class="form-control">
+        </div>
+
+        <div class="form-group text-white">
+          <label for="alamat">Alamat</label>
+          <input class="form-control" id="alamat" rows="3"></input>
+        </div>
+
+        <div class="form-group text-white">
+          <label for="no_tlp">No Televon / WA</label>
+          <input class="form-control" id="no_tlp" rows="3" placeholder="0822-xxxx-xxxx"></input>
+        </div>
+
+        <div class="form-group text-white">
+          <label for="email">Email</label>
+          <input class="form-control" id="email" rows="3" ></input>
+        </div>
+
+        <div class="form-group text-white">
+          <label for="no_ktp">No KTP</label>
+          <input class="form-control" id="no_ktp" rows="3"></input>
+        </div>
+
+        <div class="form-group text-white">
+          <label for="pekerjaan">Fakultas</label>
+          <select id="pekerjaan" class="form-control">
+            <option value="">- Pilih Fakultas</option>
+            <option value="">STMIK</option>
+            <option value="">STIPER</option>
+            <option value="">STISIPOL</option>
+            <option value="">AKPER</option>
+          </select>
+        </div>
+
+
+
+        <button type="submit" class="btn btn-primary btnr mt-3">Submit</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- ===================================================================================================================================== -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
